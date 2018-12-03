@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/relativeYanit"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <TextView
+        android:id="@+id/tvYanitBaslik"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_margin="10dp"
+        android:text="TextView TextView TextView TextView TextView"
+        android:textColor="@color/colorPrimary"
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/tvYanitBaslik"
+        android:layout_below="@+id/tvYanitBaslik"
+        android:layout_marginTop="-10dp"
+        android:text="Doğru Yanıt" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/tvYanitBaslik"
+        android:layout_below="@+id/tvYanitDogru"
+        android:text="Sizin Yanıtınız" />
+
+    <TextView
+        android:id="@+id/tvYanitDogru"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/tvYanitBaslik"
+        android:layout_below="@+id/textView3"
+        android:text="TextView"
+        android:textSize="24sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/tvYanitKullanici"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/tvYanitBaslik"
+        android:layout_below="@+id/textView4"
+        android:text="TextView"
+        android:textSize="24sp"
+        android:textStyle="bold" />
+</RelativeLayout>
